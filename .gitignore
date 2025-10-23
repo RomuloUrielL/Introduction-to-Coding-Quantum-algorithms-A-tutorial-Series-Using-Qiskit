@@ -1,0 +1,78 @@
+# =====================================
+# VS Code + Python + Qiskit project
+# =====================================
+
+# VS Code settings
+.vscode/
+.code-workspace
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+.env
+.env.bak
+
+# Jupyter Notebook checkpoints & outputs
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb_save
+
+# Logs & debug
+*.log
+*.tmp
+*.bak
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE cache
+.idea/
+.history/
+.cache/
+*.swp
+
+# Qiskit / IBM Quantum data
+qiskit.log
+*.qasm
+*.ibmq/
+__qiskit_temp__/
+
+# Dependency folders
+site-packages/
+dist/
+build/
+*.egg-info/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Output data (if you simulate / export results)
+results/
+outputs/
+figures/
+data/
+plots/
+
+# Misc
+*.sqlite
+*.db
